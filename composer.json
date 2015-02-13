@@ -1,0 +1,16 @@
+{
+    "name": "vgno/phabricator",
+    "description": "VG's fork of Phabricator",
+    "require-dev": {
+        "deployer/deployer": "~2.0"
+    },
+    "license": "Apache License",
+    "authors": [
+        {
+            "name": "Erland Wiencke",
+            "email": "erland.wiencke@vg.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

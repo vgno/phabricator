@@ -31,3 +31,5 @@
 
 # NPM local packages
 /support/aphlict/server/node_modules/
+
+/vendor/
