@@ -222,17 +222,17 @@ final class PHUITagView extends AphrontTagView {
 
   public static function getShadeMap() {
     return array(
-      self::COLOR_RED => pht('Red'),
-      self::COLOR_ORANGE => pht('Orange'),
-      self::COLOR_YELLOW => pht('Yellow'),
+      #self::COLOR_RED => pht('Red'),
+      #self::COLOR_ORANGE => pht('Orange'),
+      #self::COLOR_YELLOW => pht('Yellow'),
       self::COLOR_BLUE => pht('Blue'),
-      self::COLOR_INDIGO => pht('Indigo'),
-      self::COLOR_VIOLET => pht('Violet'),
-      self::COLOR_GREEN => pht('Green'),
-      self::COLOR_GREY => pht('Grey'),
-      self::COLOR_PINK => pht('Pink'),
-      self::COLOR_CHECKERED => pht('Checkered'),
-      self::COLOR_DISABLED => pht('Disabled'),
+      #self::COLOR_INDIGO => pht('Indigo'),
+      #self::COLOR_VIOLET => pht('Violet'),
+      #self::COLOR_GREEN => pht('Green'),
+      #self::COLOR_GREY => pht('Grey'),
+      #self::COLOR_PINK => pht('Pink'),
+      #self::COLOR_CHECKERED => pht('Checkered'),
+      #self::COLOR_DISABLED => pht('Disabled'),
     );
   }
 
