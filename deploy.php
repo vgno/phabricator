@@ -10,14 +10,7 @@ server('development-server', 'phabricator-dev.int.vgnett.no', 22)
 stage('dev', array('development-server'), array('branch' => 'master'), true);
 
 set('repository', 'git@github.com:vgno/phabricator.git');
-set('shared_dirs', ['conf/custom']);
-set('shared_files',
-    ['/conf/local/local.json',
-    'conf/local/ENVIRONMENT',
-    'conf/local/VERSION',
-    'conf/keys/device.pub',
-    'conf/keys/device.key',
-    'conf/keys/device.id']);
+set('shared_dirs', ['conf']);
 
 task('deploy', [
     'deploy:start',
