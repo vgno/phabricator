@@ -10,6 +10,8 @@ server('development-server', 'phabricator-dev.int.vgnett.no', 22)
 stage('dev', array('development-server'), array('branch' => 'master'), true);
 
 set('repository', 'git@github.com:vgno/phabricator.git');
+set('shared_dirs', ['conf']);
+
 
 task('deploy', [
     'deploy:start',
