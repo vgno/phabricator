@@ -7,7 +7,13 @@ server('development-server', 'phabricator-dev.int.vgnett.no', 22)
     ->user('erlwienc')
     ->pubKey();
 
+server('production-server', 'phabricator.int.vgnett.no', 22)
+    ->path('/services/applications/phabricator/phabricator')
+    ->user('erlwienc')
+    ->pubKey();
+
 stage('dev', array('development-server'), array('branch' => 'master'), true);
+stage('prod', array('production-server'), array('branch' => 'master'), true);
 
 set('repository', 'git@github.com:vgno/phabricator.git');
 set('shared_dirs', ['conf']);

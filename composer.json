@@ -9,6 +9,10 @@
         {
             "name": "Erland Wiencke",
             "email": "erland.wiencke@vg.no"
+        },
+        {
+          "name": "Ole Fredrik Skudsvik",
+          "email": "ole.fredrik.skudsvik@vg.no"
         }
     ],
     "minimum-stability": "dev",
